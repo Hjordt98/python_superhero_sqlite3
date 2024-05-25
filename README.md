@@ -24,7 +24,7 @@ Task: Create a new table for supervillains with a similar structure and insert s
 
 Task: Create a table to establish relationships between superheroes and supervillains (e.g., arch-nemeses).
 
-- Table name: hero_villain_relationships
+- Table name: arch_nemesis
 - Fields: id, hero_id, villain_id
 
 Establish some relationships and insert records.
@@ -54,7 +54,7 @@ Task: Retrieve superheroes who debuted before a certain year.
 
 Task: Write a script to perform a join query to find the arch-nemesis of a specific superhero.
 
-- Use the hero_villain_relationships table to join the superheroes and supervillains tables.
+- Use the arch_nemesis table to join the superheroes and supervillains tables.
 - Print the results.
 
 #### Problem 8: Create and Use Indexes
